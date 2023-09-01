@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clothing Recommendation</title>
+</head>
+<body>
+    <h1>Clothing Recommendation</h1>
+    <label for="userInput">Enter your occasion:</label>
+    <input type="text" id="userInput" placeholder="e.g., I want to go to a party">
+    <button id="recommendButton">Get Recommendations</button>
+    <div id="recommendations"></div>
+
+    <script src="{{ url_for('static', filename='js/recommendation.js') }}"></script>
+</body>
+</html>

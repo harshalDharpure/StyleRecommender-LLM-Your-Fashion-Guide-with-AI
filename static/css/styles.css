@@ -1,0 +1,13 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Define styles for your UI elements */
+/* For example: */
+#userInput {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
